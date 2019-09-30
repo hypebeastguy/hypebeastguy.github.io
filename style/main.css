@@ -1,0 +1,158 @@
+/* style untuk selector - body */
+body {
+    background-color: azure;
+    margin: 85px;
+}
+/* style untuk heading - begin */
+h1 {
+    color: cadetblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    
+}
+h3 {
+    color:  darkcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* style untuk class - begin */
+.header1 {
+    color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.header2 {
+    color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    text-align: center;
+}
+/* style untuk class - end */
+
+/* style untuk link - begin */
+a:link {
+    color: darkcyan;
+}
+a:visited {
+    color: rgb(35, 82, 170);
+}
+/* style untuk link - end */
+.container {
+    margin: 0px auto;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+/* menu header - begin */
+.menu-header {
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 
+    0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+.menu-header li {
+    display: inline-block
+}
+.menu-header a {
+    font-family: monospace;
+    text-transform: uppercase;
+    color: rgb(4, 8, 27);
+    text-decoration: none;
+    padding: 30px 20px;
+    letter-spacing: 1px
+}
+.menu-header a:hover {
+    color: deepskyblue;
+}
+.footer {
+    font-family: monospace;
+    color:black;
+    background-color: rgb(183, 218, 218);
+    padding: 10px 0px;
+    font-size: 21px;
+    text-align: center
+}
+.jumbotron {
+    background-image: url('../images/hijab.jpg');
+    background-size: cover;
+    height: 400px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+.jumbotron h1 {
+    margin: 20px 40px;
+    font-size: 24px;
+}
+.jumbotron h3 {
+    margin: 20px 40px;
+    font-size: 20px;
+}
+/* Card Home - BEGIN */
+.cardhome {
+    display: inline-block;
+    background-color: whitesmoke;
+    width:  30%;
+    height: 250px;
+    border-radius: 0px 0px  20px 20px;
+}
+.cardhead {
+    border-bottom: solid 1px burlywood;
+    padding: 10px 0px;
+    text-align: center;
+}
+.cardhead h3 {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    color: cadetblue;
+}
+.cardflex {
+    display: flex;
+    justify-content: space-between;
+}
+/* Card Home - END */
+h4 {
+    color: rgb(10, 74, 99);
+    font-family: fantasy;
+    font-size: 40px;
+}
+h5 {
+    color: rgb(12, 143, 231);
+    font-size: 20pt;
+}
+.term {
+    margin: 20px 0px;
+    background-color: cornsilk;
+}
+.term h2 {
+    color: cornflowerblue;
+    font-family: fantasy;
+
+}
+.term p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+.feature {
+    margin: 20px 0px;
+    background-color: whitesmoke;
+}
+.feature h1 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
